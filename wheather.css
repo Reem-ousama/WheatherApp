@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration:line-through;
+}
+
+#outside{
+    height: 100vh;
+    background-image: url(photo/Z4CD0Ic-weather-wallpapers.jpg);
+    background-size: 100% 100%;
+    z-index: -99;
+    
+}
+nav{
+   background-color: #19394e82;
+   /* opacity: ; */
+    /* border: 1px solid #d8dee3; */
+    box-shadow:  #41617A 1px 1px 8px 1px;
+}
+nav i{
+    font-size: 40px;
+  color:#C8FAFB
+}
+
+nav p{
+font-size: 10px;
+
+}
+nav a .btn{
+   color: white;
+   text-decoration: none;
+   transition: all 1s ease;
+}
+
+
+
+nav a:hover .btn{
+    border: #C8FAFB 1px solid;
+    border-radius: 20px;
+} 
+
+
+#home .input-group{
+   
+position:absolute;
+top: 35%;
+right:15%;
+}
+#home .btn{
+    position: absolute;
+    right: 0px;
+    background-color: #c8fafbdf;
+    border-radius: 10px;
+}
+#home input{
+    background-color: #3a3a3482;
+    border:#19394e82 1px solid;
+    border-radius: 10px;
+}
+.cardday {
+    float: right;
+}
+.carddate{
+    float: left;
+}
+
+#contact{
+    height: 40vh;
+    background: #5f88a99b;
+    position: relative;
+}
+
+#contact .input-group{
+    position:absolute;
+    top: 35%;
+    left:10%;
+    }
+#contact .input-groupp{
+    position:absolute;
+    top: 70%;
+    left:10%;
+    }
+#contact input{
+    
+        background-color: #3a3a3482;
+        border:#19394e82 1px solid;
+        border-radius: 10px;
+        position: relative;
+    }
+#contact .btn{
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+background-color: #C8FAFB;
+    }
+
+ul li{
+    padding: 5px;
+        display: inline;
+    }
+ul li i{
+    padding: 5px;
+    font-size: 25px;
+    border:#41617A 1px solid;
+    border-radius: 50%;
+    background-color: #41617aa4;
+    transition: all 1s ease;
+}
+.icon{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+a{
+    color: #C8FAFB;
+    text-decoration: none;
+}
+
+#contact a:hover i{
+    background-color: white;
+    color: #41617A;
+}
+
+/* contact */
+.out{
+    height:180vh ;
+    background-color: #19394e82;
+    
+}
+
+.cont{
+    margin-top:60px ;
+    height: 8vh;
+    width: 100%;
+    background-color: #355063;
+    border: #355063 1px solid;
+    border-radius: 30px;
+    position: relative;;
+}
+.det{
+    position: absolute;
+    top: 0px;
+   left: 10px;
+}
+.det a:hover{
+    text-decoration:underline;
+}
+
+.map{
+    width: 450px;
+    height: 430px;
+    background-color: #355063;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+.address{
+    position: absolute;
+    top: 100%;
+    left: 8%; 
+}
+
+.coinfo input , .coinfo textarea{
+    background-color: #355063cc;
+    border:#355063cc  1px solid;
+
+}
+
+.card-body .pho1{
+ 
+    float: right;
+}
+
+.card{
+    background-color: #5e5e6ab2;
+   
+}
+
+.pho1 img , .pho2 img{
+width: 40px;
+}
+.txt{
+    color: rgba(247, 247, 159, 0.858);
+    font-weight: 700;
+}

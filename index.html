@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="photo/rain_3873752.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="wheather.css">
+</head>
+
+<body>
+    <div id="outside">
+        <div class="r">
+            <nav>
+                <nav class="navbar  p-3 ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand d-flex">
+                            <div class="iconnav">
+                                <i class="fa-solid fa-cloud m-2 "></i>
+                            </div>
+                            <div class="details m-2 text-light">
+                                <h4>weather</h4>
+                                <p>tagline goes here </p>
+                            </div>
+                        </a>
+                        <div class="nav-option">
+                            <a href="" class="active p-2 "><button class=" btn m-3">Home</button></a>
+                            <a href=""><button class="btn m-3 p-2" type="submit">News</button></a>
+                            <a href=""><button class="btn m-3 p-2" type="submit">Live cameras</button></a>
+                            <a href=""><button class="btn m-3 p-2" type="submit">Photos</button></a>
+                            <a href="contact.html"><button class="btn m-3 p-2" type="submit">contact</button></a>
+                        </div>
+
+
+                    </div>
+                </nav>
+            </nav>
+
+            <section id="home">
+                <div class="find">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="input-group w-75  ">
+                                    <input id="search" type="text" class=" form-control p-3 " placeholder="Find your location..."
+                                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <div class="btnfind ">
+                                        <button class="btn  p-3 btnS" type="button">Find</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+
+
+
+
+                <div class="degrees">
+                    <div class="container">
+
+                        <div class="card-group mt-5  ">
+                            <div class="card text-light">
+                                <div class="card-header bg-transparent ">
+                                    <div class="cardday">
+                                        <p id="numofday" class="d-inline">21</p>
+                                        <p id="month" class="d-inline">jun</p>
+                                    </div>
+                                    <div id="Day" class=" carddate">Friday</div>
+                                </div>
+
+                                <div class="card-body ">
+                                    <div class="pho1">
+                                        <img src="photo/rain_3873752.png" id="imgtoday">
+                                    </div>
+                                    <div class="num m-2">
+                                        <h5 id="locationToday" class="card-title">Cairo</h5>
+                                        <h1 id="tempo" class="fs-1">18 ْC</h1>
+                                        <h6 id="textt" class="txt pt-4">clear</h6>
+                                    </div>
+                                    <div class="ic d-inline">
+                                        <div class="iconscard d-inline p-3">
+                                            <i class="fa-solid fa-umbrella"></i>
+                                            <p id="umpr" class="d-inline">15</p>
+                                        </div>
+                                        <div class="iconscard d-inline p-3">
+                                            <i class="fa-solid fa-wind"></i>
+                                            <p id="wind" class="d-inline">18km/h</p>
+                                        </div>
+                                        <div class="iconscard d-inline p-3">
+                                            <i class="fa-solid fa-compass"></i>
+                                            <p id="windir" class="d-inline">s</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="card text-light">
+                                <div class="Nextday card-header bg-transparent text-center">day</div>
+                                <div class="card-body text-center">
+
+                                    <div class="pho2 ">
+                                        <img id="" src="photo/rain_3873752.png " class="imgnext" >
+                                    </div></br>
+                                    <div class="num ">
+
+                                        <h4 id="" class="maxtemp">18.3 ْC</h4>
+                                        <h6 id="" class=" mintemp ">18 ْC</h6>
+                                        <h6 id="" class=" nexttext txt pt-4">Patchy rain possible</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card c1 text-light">
+                                <div class=" Nextday card-header bg-transparent text-center">day</div>
+                                <div class="card-body text-center">
+
+                                    <div class="pho2">
+                                        <img src="photo/rain_3873752.png " class="imgnext">
+                                    </div></br>
+                                    <div class="num  ">
+                                        <h4 id="" class="maxtemp">18.3 ْC</h4>
+                                        <h6 id="" class=" mintemp ">18 ْC</h6>
+                                        <h6 class=" nexttext txt pt-4">clear</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+        </div>
+
+
+        </section>
+        <section id="contact" class="">
+
+            <div class="input-group w-50">
+                <input type="text" class="form-control p-3 " placeholder="Enter your Email to subscribe"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="btnfind ">
+                    <button class="btn p-3 btnS" type="button">Subscribe</button>
+                </div>
+            </div>
+            <div class="p input-groupp">
+                <p class="f-block">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+            </div>
+
+
+
+            <div class="icon">
+                <ul>
+                    <li>
+                        <a class="" href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+    <!-- <script src="weatherapp.js"></script> -->
+</body>
+
+</html>
