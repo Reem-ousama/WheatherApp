@@ -34,7 +34,7 @@ function displayToday(data){
  monthToday.innerHTML=todayDate.toLocaleDateString("en-us" , {month:"long"});
 TodayLocation.innerHTML=data.location.name;
 tempToday.innerHTML=data.current.temp_c+"Cْ";
-imgToday.setAttribute("src","https//cdn.weatherapi.com/weather/64x64/night/116.png");
+imgToday.setAttribute("src","https://cdn.weatherapi.com/weather/64x64/night/116.png");
 textToday.innerHTML=data.current.condition.text;
 humidityToday.innerHTML=data.current.humidity+"%";
 windToday.innerHTML=data.current.wind_kph+"km/h";
@@ -50,7 +50,7 @@ for(let i=0 ; i<2 ;i++){
     NextDay[i].innerHTML=nextDate.toLocaleDateString("en-us" , {weekday:"long"});
     maxitemp[i].innerHTML=forecastData[i+1].day.maxtemp_c+"Cْ";
     mintemp[i].innerHTML=forecastData[i+1].day.mintemp_c+"Cْ";
-    imgNext[i].setAttribute("src",forecastData[i+1].day.condition.icon);
+    imgNext[i].setAttribute("src","https://cdn.weatherapi.com/weather/64x64/day/176.png");
     textNext[i].innerHTML=forecastData[i+1].day.condition.text; 
 
 }
