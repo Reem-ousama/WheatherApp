@@ -18,7 +18,7 @@ let searchInput=document.getElementById('search')
 
 
 async function getweather(country){
-    let data= await fetch(`http://api.weatherapi.com/v1/forecast.json?key=c4820b47a9b7440fbce00159241901&q=${country}&days=3&aqi=no&alerts=no`, 
+    let data= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=c4820b47a9b7440fbce00159241901&q=${country}&days=3&aqi=no&alerts=no`, 
 )
     
     let result= await data.json()
